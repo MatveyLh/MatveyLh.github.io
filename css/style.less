@@ -36,8 +36,8 @@ body {
         opacity: 0;
       }
       .menu__btn {
-        display: flex; /* используем flex для центрирования содержимого */
-        align-items: center;  /* центрируем содержимое кнопки */
+        display: flex; 
+        align-items: center;
         position: fixed;
         top: 20px;
         left: 20px;
@@ -46,7 +46,6 @@ body {
         cursor: pointer;
         z-index: 1;
       }
-      /* добавляем "гамбургер" */
       .menu__btn > span,
       .menu__btn > span::before,
       .menu__btn > span::after {
@@ -79,7 +78,6 @@ body {
         background-color: #030412;
         box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
       }
-      /* элементы меню */
       .menu__item {
         display: block;
         padding: 12px 24px;
@@ -134,19 +132,16 @@ body {
       color: #FFFBFB;
       font-size: 16px;
     }
-
     .header-title__item-points {
       p {
         color: #FFF9F9;
 
       }
-
       p:before {
         content: url("../img/Vector.png");
         padding-right: 10px;
       }
     }
-
     .header-title__footer {
       display: flex;
       justify-content: space-between;
@@ -160,7 +155,6 @@ body {
         cursor: pointer;
         font-size: 16px;
       }
-
       .header-title__footer_social-links {
         display: flex;
         align-items: flex-end;
@@ -171,71 +165,56 @@ body {
         }
       }
     }
-
     .advantages {
       padding-top: 90px;
-
       .advantages__main-advantages {
         p {
           color: #FFFDFD;
         }
-
         .advantages__main-advantages_title {
           font-size: 24px;
         }
-
         .advantages__main-advantages_title + p {
           font-family: auto;
         }
-
         hr {
           border: 1px solid #E9AA09;
           width: 6%;
           left: 164px;
           position: absolute;
         }
-
         .advantages__main-advantages_description {
           display: flex;
           flex-wrap: wrap;
           width: 75%;
-
           .experience, .activity, .organizational-issues, .it-side {
             display: flex;
             margin-top: 50px;
-
             span {
               color: #ffffff;
               font-family: monospace;
             }
           }
-
           .experience, .organizational-issues {
             padding-right: 30px;
           }
-
           .experience:before, .activity:before, .organizational-issues:before, .it-side:before {
             display: flex;
             align-items: flex-end;
             margin-right: 10px;
           }
-
           .experience:before {
             content: url("../img/experience.png");
           }
-
           .activity:before {
             content: url("../img/usability.png");
           }
-
           .organizational-issues:before {
             content: url("../img/profiling.png");
           }
-
           .it-side:before {
             content: url("../img/cms.png");
           }
-
           .rocket {
             z-index: -1;
             position: absolute;
@@ -579,6 +558,7 @@ body {
         width: 100%;
         padding: 70px 0 70px 0;
         font-size: 11px;
+        text-align: center;
       }
     }
     .cases-carousel {
@@ -604,43 +584,3 @@ body {
     }
   }
 }
-
-/*@tablet: 320px;
-@media (max-width: @tablet) {
-  .footer {
-    font-size: 20px;
-    p, button {
-      font-size: 20px;
-    }
-  }
-  .map-info {
-    li {
-      font-size: 25px;
-    }
-    .owl-nav {
-      top: 60px;
-    }
-  }
-  .list-slide {
-    width: 80%;
-    margin: 0;
-  }
-  .item-1 {
-    padding-left: 135px;
-  }
-  .request-call {
-    input {
-      height: 60px;
-      font-size: 28px;
-    }
-    .btn-call {
-      height: 64px;
-    }
-  }
-  .advantages__main-advantages_description {
-    font-size: 28px;
-  }
-  .content {
-    padding: 75px 0 0 80px;
-  }
-}*/
