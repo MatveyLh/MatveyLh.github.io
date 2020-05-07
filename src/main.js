@@ -52,9 +52,9 @@ $(document).ready(function () {
     $('.cases-carousel').owlCarousel({
         items: 1,
         nav: true,
-        /*autoplay: true,
+        autoplay: true,
         smartSpeed: 1000,
-        autoplayTimeout: 6000,*/
+        autoplayTimeout: 6000,
         loop: true,
         navText: ['<img src="../img/prev.png">','<img src="../img/next.png">'],
     });
