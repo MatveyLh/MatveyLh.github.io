@@ -9,8 +9,6 @@ import ReviewsLogo from '../img/reviews.png';
 let logo = document.querySelector('.logo-company');
 logo.innerHTML = `<img src="${CompanyLogo}">`;
 
-
-
 let earthImage = document.querySelector('.content');
 earthImage.style = `background-image: url(${EarthLogo}); background-repeat: no-repeat; background-position: right 0px top 0%;; background-size: 50%;`;
 
